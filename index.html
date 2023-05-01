@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="stylesheet" href="./css/normalize.css">
+  <link rel="stylesheet" href="./css/all.min.css">
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
+  </style>
+    
+  <title>Todo List</title>
+</head>
+<body>
+  <div class="mainContainer">
+
+    <header>
+      <h1>Todos</h1>
+    </header>
+
+    <div class="mainList">
+      <form class="listForm">
+        <input type="text" name="task" id="1" class="inputTask" placeholder="What needs to be done?">
+      </form>
+      <div class="mainDiv">
+        <p class="deleteAll">Mark all as complete</p>
+        <div class="tasksToDo"></div>
+      </div>
+      <div class="tasksCounter">
+        <span class="counter"></span>
+        <p>item left</p>
+      </div>
+    </div>
+    
+    
+    <div class="details">
+      <p>double-click to edit a todo list.</p>
+      <div class="programmer">
+        <p>created by <a href="http://kilon.org">ziad ahmed</a></p>
+      </div>
+      <a href="">Click here for non-optimized version</a>
+    </div>
+  </div>
+  <script src="./file.js"></script>
+</body>
+</html>
